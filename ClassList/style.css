@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*2em = 200%*/
+    font-size: 2em; 
+}
+
+#meuH1{
+    font-size: 4rem;
+}
+
+#meuBtn{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.acionado{
+    background-color: hsl(240, 100%, 70%);
+    color: white;
+}
+
+.desligado{
+    background-color: grey;
+    color: hsl(0, 0%, 84%);
+}
+
+.hover{
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+    font-weight: bold;
+}
